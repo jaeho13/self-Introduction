@@ -1,0 +1,64 @@
+#front {
+    background-color: white;
+    width: 90%;
+    height: 70%;
+    margin: 100px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.PIC {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+.ABC {
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 2px solid black;
+}
+
+
+
+.back {
+    background-color: white;
+    width: 1700px;
+    height: 900px;
+    margin: 100px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    gap: 10%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.TS {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.C {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.P {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.CON {
+    background-color: white;
+    border: 2px solid black;
+}
